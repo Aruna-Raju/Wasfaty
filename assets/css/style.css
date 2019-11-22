@@ -106,3 +106,13 @@ body{
 .head{
   color: 
 }
+.table thead th{
+  border-bottom: none;
+}
+.table td, .table th{
+  padding: 3px 0;
+  border-top: none;
+}
+.table td{
+  text-align: left;
+}
