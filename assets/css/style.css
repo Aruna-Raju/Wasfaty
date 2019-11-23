@@ -100,7 +100,6 @@ body{
   border-radius: 10px;
 }
 
-
 @media screen and (max-width: 350px){
   #prescription_list{
     padding-left: 0px;
@@ -141,3 +140,18 @@ body{
   vertical-align: middle;
 }
 
+.pharmacy_address .address{
+  background-color: transparent;
+  border: none;
+}
+.pharmacy_address .address .card-body{
+  border-radius: 6px;
+}
+.pharmacy_address .direction{
+  background-color: transparent;
+  border: none;
+}
+.pharmacy_address .direction .card-body{
+  border-radius: 6px;
+  height: 400px;
+}
