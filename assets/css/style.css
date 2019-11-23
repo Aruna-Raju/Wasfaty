@@ -159,3 +159,8 @@ body{
   border-radius: 6px;
   height: 400px;
 }
+
+.card-body:active{
+  box-shadow: 0 3px 0 #3F79B1;
+  bottom: -4px;
+}
