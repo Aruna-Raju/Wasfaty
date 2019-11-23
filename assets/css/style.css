@@ -101,15 +101,12 @@ body{
 }
 
 
-
-
 @media screen and (max-width: 350px){
   #prescription_list{
     padding-left: 0px;
     padding-right: 0px;
   }
 }
-
 
 .patient_details thead th{
   border-bottom: none;
@@ -126,6 +123,9 @@ body{
   padding: 3px 0;
 }
 
+.modal-header .close{
+  outline: none;
+}
 .modal-footer{
   border-top: none;
 }
