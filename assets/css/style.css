@@ -105,6 +105,10 @@ body{
     padding-left: 0px;
     padding-right: 0px;
   }
+  .modal .modal-body{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .patient_details thead th{
