@@ -103,10 +103,14 @@ body{
 
 
 
-
-.head{
-  color: 
+@media screen and (max-width: 325px){
+  #prescription_list{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
+
+
 .table thead th{
   border-bottom: none;
 }
