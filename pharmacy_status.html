@@ -16,6 +16,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="assets/js/script.js" type="text/javascript"></script>
   </head>
+  
   <body class="disable-select">
       <nav class="navbar navbar-expand-sm bg-white py-0 shadow fixed-top">
         <a class="navbar-brand" href="#"><img src="assets/images/nupco-logo.png" height="55px"></a>
@@ -25,7 +26,7 @@
           </li> 
         </ul>
       </nav>
-    <section class="main pt-5" id="main">
+    <section class="main pt-5" id="main_status">
 
       <div class="container pt-5" id="prescription_list">
         <div class="row mx-auto text-center">
@@ -40,25 +41,25 @@
                       <tr>
                         <td><b>Nahdi Pharmacy</b></td>
                         <form>
-                          <td rowspan="2" class="text-warning font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline yellow_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check1" name="check1" value="something" checked disabled>
                               <label class="custom-control-label" for="check1"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-primary font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline blue_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check2" name="check2" value="something" checked disabled>
                               <label class="custom-control-label" for="check2"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-success font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline green_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check3" name="check3" value="something" checked disabled>
                               <label class="custom-control-label" for="check3"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-black-50 font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline red_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check4" name="check4" value="something" disabled>
                               <label class="custom-control-label" for="check4"></label>
@@ -81,25 +82,25 @@
                       <tr>
                         <td><b>Nahdi Pharmacy</b></td>
                         <form>
-                          <td rowspan="2" class="text-warning font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline yellow_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check1" name="check1" value="something" checked disabled>
                               <label class="custom-control-label" for="check1"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-primary font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline blue_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check2" name="check2" value="something" checked disabled>
                               <label class="custom-control-label" for="check2"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-success font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline green_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check3" name="check3" value="something" disabled>
                               <label class="custom-control-label" for="check3"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-black-50 font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline red_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check4" name="check4" value="something" checked disabled>
                               <label class="custom-control-label" for="check4"></label>
@@ -122,25 +123,25 @@
                       <tr>
                         <td><b>Nahdi Pharmacy</b></td>
                         <form>
-                          <td rowspan="2" class="text-warning font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline yellow_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check1" name="check1" value="something" checked disabled>
                               <label class="custom-control-label" for="check1"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-primary font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline blue_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check2" name="check2" value="something" checked disabled>
                               <label class="custom-control-label" for="check2"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-success font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline green_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check3" name="check3" value="something" disabled>
                               <label class="custom-control-label" for="check3"></label>
                             </div>
                           </td>
-                          <td rowspan="2" class="text-black-50 font-weight-bolder">
+                          <td rowspan="2">
                             <div class="custom-control custom-checkbox custom-control-inline red_box mr-0">
                               <input type="checkbox" class="custom-control-input" id="check4" name="check4" value="something" disabled>
                               <label class="custom-control-label" for="check4"></label>
@@ -158,12 +159,58 @@
 
               <div class="card mb-5"></div>
               
-              
             </div>
           </div>
         </div>
       </div>
 
+      
+
     </section>
+
+    <div class="container px-5">
+      <div class="row">
+        <div class="col-12 col-sm-10 col-md-6 mx-auto">
+          <div class="card col-12 shadow status_value">
+              <div class="card-body row px-4 py-0">
+                <table class="table text-center mb-0">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox custom-control-inline yellow_box mr-0">
+                            <input type="checkbox" class="custom-control-input" id="status1" name="status1" value="something" checked disabled>
+                            <label class="custom-control-label" for="status1">Received</label>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="custom-control custom-checkbox custom-control-inline blue_box mr-0">
+                            <input type="checkbox" class="custom-control-input" id="status2" name="status2" value="something" checked disabled>
+                            <label class="custom-control-label" for="status2">Checking</label>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox custom-control-inline green_box mr-0">
+                            <input type="checkbox" class="custom-control-input" id="status3" name="status3" value="something" checked disabled>
+                            <label class="custom-control-label" for="status3">Available</label>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="custom-control custom-checkbox custom-control-inline red_box mr-0">
+                            <input type="checkbox" class="custom-control-input" id="status4" name="status4" value="something" checked disabled>
+                            <label class="custom-control-label" for="status4">Not Available</label>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>

@@ -10,7 +10,7 @@ body{
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
-#main{
+.main{
   background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('../images/bg-main.jpg');
   background-position: center;
   background-size: cover;
@@ -20,7 +20,7 @@ body{
   width: 100%;
 }
 
-#main::before{
+#main_home::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
   width: 50%;
@@ -31,7 +31,8 @@ body{
   background-size: contain;
   opacity: 0.9;
 }
-#main::after{
+
+#main_home::after{
     content: '';
     background: url('../images/bottom-corner.png') bottom right no-repeat;
     width: 70%;
@@ -44,6 +45,107 @@ body{
     opacity: 0.9;
 }
 
+#main_prescription::before{
+  content: '';
+  background: url('../images/top-corner.png') top left no-repeat;
+  width: 50%;
+  height: 100%;
+  top: 65px;
+  left: 0;
+  position: fixed;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+#main_prescription::after{
+    content: '';
+    background: url('../images/bottom-corner.png') bottom right no-repeat;
+    width: 70%;
+    height: 40vh;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-size: contain;
+    bottom: 0;
+    opacity: 0.9;
+}
+
+#main_status::before{
+  content: '';
+  background: url('../images/top-corner.png') top left no-repeat;
+  width: 50%;
+  height: 100%;
+  top: 65px;
+  left: 0;
+  position: fixed;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+#main_status::after{
+    content: '';
+    background: url('../images/bottom-corner.png') bottom right no-repeat;
+    width: 70%;
+    height: 40vh;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-size: contain;
+    bottom: 0;
+    opacity: 0.9;
+}
+
+#main_search::before{
+  content: '';
+  background: url('../images/top-corner.png') top left no-repeat;
+  width: 50%;
+  height: 100%;
+  top: 65px;
+  left: 0;
+  position: fixed;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+#main_search::after{
+    content: '';
+    background: url('../images/bottom-corner.png') bottom right no-repeat;
+    width: 70%;
+    height: 40vh;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-size: contain;
+    bottom: 0;
+    opacity: 0.9;
+}
+
+#main_address::before{
+  content: '';
+  background: url('../images/top-corner.png') top left no-repeat;
+  width: 50%;
+  height: 100%;
+  top: 65px;
+  left: 0;
+  position: fixed;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 576px){
+  #main_address::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
+}
 
 #main_menu{
   position: absolute;
@@ -63,6 +165,26 @@ body{
     transform: translateY(-50%);
   }
 }
+
+#main_login{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+@media screen and (min-width: 576px){
+  #main_login{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
 
 #main_menu .card{
   border-radius: 0px!important;
@@ -205,4 +327,15 @@ body{
   color: #fff;
   border-color: #dc3545;
   background-color: #dc3545;
+}
+
+.status_value{
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+.status_value table tbody td{
+  border-top: none;
+  padding: 4px 10px;
 }
