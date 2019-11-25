@@ -20,6 +20,32 @@ body{
   width: 100%;
 }
 
+#login_signup::before{
+  content: '';
+  background: url('../images/top-corner.png') top left no-repeat;
+  width: 50%;
+  height: 100%;
+  top: 65px;
+  left: 0;
+  position: fixed;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 576px){
+  #login_signup::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
+}
 #main_home::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
@@ -31,20 +57,20 @@ body{
   background-size: contain;
   opacity: 0.9;
 }
-
-#main_home::after{
-    content: '';
-    background: url('../images/bottom-corner.png') bottom right no-repeat;
-    width: 70%;
-    height: 40vh;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    background-size: contain;
-    bottom: 0;
-    opacity: 0.9;
+@media screen and (min-width: 576px){
+  #main_home::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
 }
-
 #main_prescription::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
@@ -56,18 +82,19 @@ body{
   background-size: contain;
   opacity: 0.9;
 }
-
-#main_prescription::after{
-    content: '';
-    background: url('../images/bottom-corner.png') bottom right no-repeat;
-    width: 70%;
-    height: 40vh;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    background-size: contain;
-    bottom: 0;
-    opacity: 0.9;
+@media screen and (min-width: 576px){
+  #main_prescription::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
 }
 
 #main_status::before{
@@ -82,19 +109,20 @@ body{
   opacity: 0.9;
 }
 
-#main_status::after{
-    content: '';
-    background: url('../images/bottom-corner.png') bottom right no-repeat;
-    width: 70%;
-    height: 40vh;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    background-size: contain;
-    bottom: 0;
-    opacity: 0.9;
+@media screen and (min-width: 576px){
+  #main_status::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
 }
-
 #main_search::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
@@ -107,17 +135,19 @@ body{
   opacity: 0.9;
 }
 
-#main_search::after{
-    content: '';
-    background: url('../images/bottom-corner.png') bottom right no-repeat;
-    width: 70%;
-    height: 40vh;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    background-size: contain;
-    bottom: 0;
-    opacity: 0.9;
+@media screen and (min-width: 576px){
+  #main_search::after{
+      content: '';
+      background: url('../images/bottom-corner.png') bottom right no-repeat;
+      width: 70%;
+      height: 40vh;
+      bottom: 0;
+      right: 0;
+      position: fixed;
+      background-size: contain;
+      bottom: 0;
+      opacity: 0.9;
+  }
 }
 
 #main_address::before{
@@ -171,6 +201,10 @@ body{
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+#main_login .card .card-body{
+  border: 2px solid #3f78b1;
+  border-top: none;
 }
 
 
