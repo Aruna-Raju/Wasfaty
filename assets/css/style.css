@@ -180,3 +180,28 @@ body{
   /*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);*/
   /*bottom: -4px;*/
 }
+
+
+
+
+/* ----- Pharmacy Status ----- */
+.custom-control{
+}
+.yellow_box .custom-control-input:checked~.custom-control-label::before{
+  color: #fff;
+  border-color: #ffc107;
+  background-color: #ffc107;
+}
+.green_box .custom-control-input:checked~.custom-control-label::before{
+  color: #fff;
+  border-color: #28a745;
+  background-color: #28a745;
+}
+.red_box .custom-control-input:checked~.custom-control-label::before{
+  color: #fff;
+  border-color: #dc3545;
+  background-color: #dc3545;
+}
+input[type="checkbox"] {
+    cursor: none;
+}
