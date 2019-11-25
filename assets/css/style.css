@@ -168,6 +168,11 @@ body{
   height: 400px;
 }
 
+
+.head{
+  text-shadow: 0 0 4px #fff;
+  text-decoration: underline;
+}
 .card-body:active{
   /*box-shadow: 0 0px 8px 0 rgba(63,121,177, 0.8), 0 0px 10px 0 rgba(63,121,177, 0.8);*/
   transition: box-shadow 0.3s ease-in-out;
