@@ -60,6 +60,7 @@ body{
       opacity: 0.9;
   }
 }
+
 /*#main_home::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
@@ -198,7 +199,6 @@ body{
   transform: translateY(-50%);
 }
 
-
 @media screen and (min-width: 576px){
   #main_menu{
     position: absolute;
@@ -209,8 +209,6 @@ body{
     transform: translateY(-50%);
   }
 }
-
-
 
 #main_login{
   position: absolute;
@@ -246,6 +244,21 @@ body{
   background-color: #3f78b1;
 }
 
+
+#main_login .parsley-required,.parsley-type {
+    list-style: none;
+    color: red;
+}
+#main_login .parsley-errors-list{
+  margin-top: 0;
+  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0;
+}
+
+#main_login .input-group .iti{
+  width: 100%!important;
+}
 
 @media screen and (min-width: 576px){
   #main_login{
@@ -364,6 +377,8 @@ body{
 
 .head{
   text-shadow: 0 0 4px #fff;
+  /*color: #3F79B1;
+  text-shadow: 1px 1px #fff;*/
 }
 
 #main_menu .card-body:active{
@@ -423,3 +438,4 @@ body{
   border-top: none;
   padding: 4px 10px;
 }
+
