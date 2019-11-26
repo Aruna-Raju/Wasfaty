@@ -332,15 +332,19 @@ body{
   border: none;
 }
 .pharmacy_address .direction .card-body{
-  border-radius: 6px;
   height: 400px;
 }
 
 .head{
-  text-shadow: 0 0 3px #fff;
-  text-decoration: underline;
+  text-shadow: 0 0 4px #fff;
 }
-.card-body:active{
+
+#main_menu .card-body:active{
+  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(0.95, 0.95);
+  box-shadow: 0 3px 0 #3F79B1;
+} 
+#prescription_list .card-body:active{
   /*box-shadow: 0 0px 8px 0 rgba(63,121,177, 0.8), 0 0px 10px 0 rgba(63,121,177, 0.8);*/
   transition: box-shadow 0.3s ease-in-out;
   transform: scale(0.95, 0.95);
@@ -375,9 +379,16 @@ body{
   background-color: #dc3545;
 }
 
+/*#bg_statusvalue{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}*/
+
 .status_value{
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 0px;
 }
 
