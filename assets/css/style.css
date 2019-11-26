@@ -23,7 +23,7 @@ body{
 .main::before{
   content: '';
   background: url('../images/top-corner.png') top left no-repeat;
-  width: 30%;
+  width: 50%;
   height: 50%;
   top: 65px;
   left: 0;
