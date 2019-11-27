@@ -429,6 +429,7 @@ body{
   background-color: #dc3545;
 }
 
+
 /*#bg_statusvalue{
   position: absolute;
   left: 0;
@@ -436,7 +437,7 @@ body{
   background-color: #fff;
 }*/
 
-.status_value{
+/*.status_value{
   position: absolute;
   bottom: 30px;
   left: 0px;
@@ -445,5 +446,49 @@ body{
 .status_value table tbody td{
   border-top: none;
   padding: 4px 10px;
+}
+
+*/
+
+.status_value{
+    width: 100%;
+    bottom: 20px;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    background-color: #818188;
+}
+.status_value .custom-control-input:disabled~.custom-control-label{
+    color: #fff;
+}
+@media screen and (min-width: 576px){
+  .status_value{
+    width: 60%;
+    bottom: 20px;
+    left: 20%;
+    right: 20%;
+    position: fixed;
+    background-color: #818188;
+  }
+}
+@media screen and (min-width: 768px){
+  .status_value{
+    width: 40%;
+    bottom: 20px;
+    left: 30%;
+    right: 30%;
+    position: fixed;
+    background-color: #818188;
+  }
+}
+@media screen and (min-width: 992px){
+  .status_value{
+    width: 30%;
+    bottom: 20px;
+    left: 35%;
+    right: 35%;
+    position: fixed;
+    background-color: #818188;
+  }
 }
 
