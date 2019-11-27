@@ -242,12 +242,14 @@ body{
     border-top-right-radius: 0;
     background: transparent;
     color: #3f78b1;
+    border-bottom: 2px solid #3f78b1;
 }
 #main_login .nav-tabs .nav-item{
   margin-bottom: -2px;
 }
 #main_login .login_btn .btn, #main_login .signup_btn .btn{
   background-color: #3f78b1;
+  border: none;
 }
 
 
