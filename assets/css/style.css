@@ -215,13 +215,24 @@ body{
     transform: translateY(-50%);
   }
 }
-
+/*
 #main_login{
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+@media screen and (min-width: 576px){
+  #main_login{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}*/
 /*#main_login .card .card-body{
   border: 2px solid #3f78b1;
   border-top: none;
@@ -268,16 +279,6 @@ body{
   width: 100%!important;
 }
 
-@media screen and (min-width: 576px){
-  #main_login{
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-}
 
 
 #main_menu .card{
