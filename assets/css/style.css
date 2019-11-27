@@ -234,7 +234,6 @@ body{
 #main_login .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     color: #fff!important;
     background-color: #3f78b1!important;
-    border: 2px solid #3f78b1;
     border-bottom: none;
 }
 #main_login .nav-tabs .nav-link{
@@ -242,6 +241,7 @@ body{
     border-top-right-radius: 0;
     background: transparent;
     color: #3f78b1;
+    border: none;
     border-bottom: 2px solid #3f78b1;
 }
 #main_login .nav-tabs .nav-item{
